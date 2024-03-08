@@ -130,11 +130,10 @@
         <div class="authorship-f pb-4 pt-3">				
             <div class="container-fluid-f">
                 <h4 class="creditos">Créditos</h4>
-                <span class="d-inline-block-f">Coordinación: Flavia Codinas</span> | 
-                <span class="d-inline-block-f">Redacción: Javier Martín</span> | 
+                <span class="d-inline-block-f">Coordinación: Flavia Codinas, Kevin Casas</span> | 
                 <span class="d-inline-block-f">Diseño y maquetación: Alejandra Santander</span> | 
-                <span class="d-inline-block-f">Vídeo y fotografía: Somos5. </span>
-                <span class="d-inline-block-f">Un proyecto de Brandslab. Godó Vertical Media</span>
+                <span class="d-inline-block-f">Fotografía: the Lemon Juice</span> |
+                <span class="d-inline-block-f">Un proyecto de Brandslab. Godó Vertical Media.</span>
             </div>
         </div>
         <div class="ball"></div>
@@ -145,14 +144,17 @@
         
         <script>
             gsap.set(".ball", {xPercent: -50, yPercent: -50});
-
+        
             let xTo = gsap.quickTo(".ball", "x", {duration: 0.4, ease: "power3"}),
                 yTo = gsap.quickTo(".ball", "y", {duration: 0.4, ease: "power3"});
-
-            window.addEventListener("mousemove", e => {
-            xTo(e.clientX);
-            yTo(e.clientY);
-            });
+        
+            // Check if the device is not a mobile device
+            if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+                window.addEventListener("mousemove", e => {
+                    xTo(e.clientX);
+                    yTo(e.clientY);
+                });
+            }
         </script>
         <script>
            // Target the .porteria and .titulares elements
