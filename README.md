@@ -5,6 +5,9 @@ _Hub de contenidos "LA FUERZA DEL FUTBOL"_
 
 ## 📁 Acceso al proyecto 
 
+```
+RUTA ASSETS HUB: https://brandedcontentgrupogodo.github.io/laliga/hub/hub-laliga-2024/assets/img/
+```
 [Landing](https://brandedcontentgrupogodo.github.io/laliga/hub/hub-laliga-2024/) - Página de prueba
 
 ## Construido con 🛠️
