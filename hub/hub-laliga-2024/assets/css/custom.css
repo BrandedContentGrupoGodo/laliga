@@ -180,9 +180,9 @@ margin-top: 0;
       left 0 bottom var(--s)/calc(2*var(--s)) var(--s) repeat-x,
     conic-gradient(from -45deg at bottom,var(--c) 90deg,#0000 0) 
       left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
-  /* -webkit-mask:
+   -webkit-mask:
     linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat; */
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
   transition: .5s;
 }
 .cap a h2:hover {
