@@ -1,8 +1,7 @@
-# laliga
+# laliga :construction: Proyecto en construcción :construction:
 
 _Hub de contenidos "LA FUERZA DEL FUTBOL"_
 
-:construction: Proyecto en construcción :construction:
 
 ## 📁 Acceso al proyecto 
 
