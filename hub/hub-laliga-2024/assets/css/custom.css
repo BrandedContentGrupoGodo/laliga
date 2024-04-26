@@ -135,20 +135,28 @@ body {
   line-height: 17px; /* 85% */
   letter-spacing: 0.7px;
 }
+.titulares p:nth-of-type(2) {
+  font-weight: 400;
+  text-transform: none;
+  font-size: 24px;
+  line-height: 25px;
+  margin-top: 10px;
+}
 .titulares h1 {
-  font-size: 46px;
+  font-size: 85px;
 font-style: normal;
 font-weight: 700;
 line-height: 98.55%; /* 45.333px */
 text-transform: uppercase;
 margin-top: 0;
+margin-bottom: 10px;
 }
 @media (max-width: 390px) {
   .titulares p {
     font-size: 14px;
   }
   .titulares h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 @media (max-width: 1024px) {
@@ -182,7 +190,7 @@ margin-top: 0;
       left var(--s) bottom 0/calc(2*var(--s)) var(--s) repeat-x;
    -webkit-mask:
     linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat;
+    linear-gradient(#000 0 0) 0/var(--_p,0%) padding-box no-repeat; 
   transition: .5s;
 }
 .cap a h2:hover {
@@ -268,19 +276,28 @@ margin-top: 0;
   color: var(--red-color);
   max-width: 500px;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 98.55%; /* 45.333px */
-  text-transform: uppercase;
-  padding-top: 10px;
+  padding-top: 50px;
+}
+.destacado-final span {
+  font-weight: 300;
+  font-size: 16px;
+}
+.texto-final {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 @media (max-width: 550px) {
   .destacado-final {
     overflow: hidden;
   }
   .destacado-final p {
-    font-size: 24px;
+    font-size: 16px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -288,6 +305,13 @@ margin-top: 0;
     width: 100%;
     height: 100%;
     right: 0;
+  }
+  .destacado-final span {
+    font-size: 14px;
+  }
+  .texto-final {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 .porteria-final {
